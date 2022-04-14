@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+        <meta charset="UTF-8">
+            <title>Morais Barbearia</title>
+            <!--<link rel="stylesheet" type="text/css" href="./styles.css"/> -->
+            <style>
+                header {
+                    display: flex;
+                    justify-content: center;
+                    background-color: #fff;
+                }
+
+                header img {
+                    position: absolute;
+                }
+
+                footer {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                footer img {
+                    position: absolute;
+                }
+
+                picture {
+                    display: flex;
+                    justify-content: center;
+                    position: relative; top: 400px;
+                }
+                picture img {
+                    max-width: 60px;
+                }
+
+                @media screen and (max-width: 768px) {
+                    div img {
+                        width: 100%;
+                    }
+
+                    picture img {
+                        position: relative; bottom: 50px;
+                        width: 80%;
+                    }
+                }
+                @media screen and (max-width: 667px) {
+                    div img {
+                        width: 100%;
+                    }
+
+                    picture img {
+                        position: relative; bottom: 220px;
+                        width: 26px;
+                    }
+                }
+            </style>
+        </head>    
+            <body>
+                <div>   
+                    <header>
+                        <img src="./assets/img/asa.svg">
+                        <img src="./assets/img/marca.svg">
+                    </header>
+                      <footer>    
+                        <img src="./assets/img/texto.svg">
+                        <picture>
+                            <img src="./assets/img/barber_pole.png">
+                        </picture>
+                      </footer>
+                 </div>
+                </body>
+    </html>
